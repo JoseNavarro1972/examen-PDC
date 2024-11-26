@@ -1,0 +1,39 @@
+.contenedor-central {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 20px;
+  background-color: #f4f4f4; 
+  text-align: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  gap: 20px; 
+}
+
+.nav-links li {
+  font-size: 18px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
